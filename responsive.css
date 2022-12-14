@@ -1,0 +1,242 @@
+@media (max-width:799px) {
+    #navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 0;
+        right: -300px;
+        height: 100vh;
+        width: 300px;
+        background-color: white;
+        box-shadow: 0 40px 60px rgb(245, 232, 232);
+        padding: 80px 0 0 10px;
+        transition: 0.3s;
+    }
+    #navbar.active{
+        right: 0px;
+    }
+    #navbar li{
+        margin-bottom: 25px;
+    }
+    #mobile{
+        display: flex;
+        align-items: center;
+    
+    }
+    #mobile i{
+        font-size: 24px;
+        padding-left: 24px;
+    }
+    #close{
+        position: absolute;
+        font-size: 24px;
+        color: black;
+       top: 30px;
+       left: 30px;
+       display: initial;
+    }
+    #lg-bag{
+        display: none;
+    }
+    #myhero {
+       
+        height: 70vh;
+        padding: 0 80px;
+        background-position: top 35% right 35%;
+        
+    }
+
+
+
+    section #p-2 {
+        text-align: center;
+        justify-content: center;
+        padding: 5px;
+       
+    }
+
+    #myfeatureboxes {
+       justify-content: center;
+       
+      
+    }
+
+
+    section .fe-box-1 {
+       
+        margin-bottom: 10px;
+        justify-content: center;
+    }
+    
+    #product1 .pro-container {
+        justify-content: center;
+    }
+
+    #product1 .pro {
+       
+        margin: 15px ;
+        
+    }
+
+    #sale-banner {
+        
+        height: 20vh;
+    }
+
+    #sm-banner .banner-box2{
+        min-width: 100%;
+        height: 20vh;
+    }
+    #sm-banner .banner-box{
+        min-width: 100%;
+        height: 20vh;
+        margin-top: 25px;
+    }
+    #sm-banner {
+        padding: 40px;
+    }
+    #sm-banner .banner-box3 {
+        margin-top: 25px;
+        min-width: 100%;
+        height: 20vh;
+    }
+
+    #sm-banner .banner-box4 {
+        min-width: 100%;
+        height: 20vh;
+    }
+    #sm-banner .banner-box5{
+        min-width: 100%;
+        height: 20vh;
+    }
+    #newsletters .form {
+       
+        width: 70%;
+    }
+
+    #cart-add {
+        display: flex;
+       flex-direction: column;
+      align-items: center;
+       
+    }
+
+@media (max-width: 477px){
+    
+    .section-p1{
+        padding: 20px;
+    }
+    #header {
+        padding: 10px 30px;
+    }
+    #myhero{
+        padding: 0 20px;
+        background-position: 55%;
+    }
+
+
+    section #p-2 {
+       
+        justify-content: space-between;
+        padding: 15px;
+       
+    }
+    #myfeatureboxes {
+      
+        justify-content: space-between;
+       
+    }
+
+    section .fe-box-1 {
+        width: 133px;
+        margin: 15px 15px 15px 15px;
+        
+    }
+
+    #product1 .pro {
+        width: 100%;
+        
+    }
+    #sale-banner {
+       
+        height: 50vh;
+        
+    }
+    #newsletters {
+        height: 30vh;
+    }
+    #newsletters .form button {
+        width: 40%;
+       
+    }
+/* /single product discription page/ */
+#prodetails {
+    display: flex;
+    flex-direction: column;
+}
+#prodetails .single-pro-image {
+    
+    width: 100%;
+    
+}
+#prodetails .single-pro-details {
+    width: 100%;
+    padding-top: 30px;
+}
+
+
+/* /read more page/ */
+
+#blog {
+    padding: 100px 20px 0 20px;
+}
+#blog .blog-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+#blog .blog-img {
+    width: 100%;
+    margin-right: 0px;
+    margin-bottom: 25PX;
+}
+#blog .blog-details {
+    width: 100%;
+}
+#page-header h2 {
+    font-size: 35px;
+}
+
+/* /contact page/ */
+#Contact-Details {
+    display: flex;
+   flex-direction: column;
+}
+#Contact-Details .details {
+    padding-top: 20px;
+    width: 100%;
+    padding-bottom: 10px;
+}
+#Contact-Details .map {
+    width: 100%;
+    height: 400px;
+    padding-bottom: 20px;
+}
+
+#copoun {
+    width: 100%;
+   
+}
+#subtotal {
+    width: 100%;
+   
+}
+
+    
+}
+
+    
+}
